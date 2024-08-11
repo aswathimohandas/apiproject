@@ -1,0 +1,69 @@
+ 
+body{
+    background-color: black;
+    margin: 0px;
+}
+h1{
+    color: white;
+    margin: 20px;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+.card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid black;
+    margin-left: 27px;
+  }
+  .card-body {
+    flex: 1;
+    
+  }
+  p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+      font-weight: normal;
+    }
+    /* .nav-link{
+      color: blue;
+    } */
+     .d1{
+      height: 500px;
+      /* border: 1px solid white; */
+      background-image: url('./images/pexels-aronvisuals-3750779.jpg');
+      background-size: cover;
+     }
+     .p1{
+      margin: 15px;
+      color: white;
+      font-size: 20px;
+     }
+     .hard{
+      font-weight: 80px;
+      font-size: 60px;
+     }
+     .nav-link{
+      color: white;
+     }
+     .container-fluid{
+      background-color: black;
+     }
+     .s1{
+      color: white;
+      margin-left: 60px;
+     }
+     .nav-item{
+      margin-left: 30px;
+     }
+     @media screen and (max-width:850px) {
+      .p1{
+        text-align: center;
+        text-wrap: wrap;
+      }
+      
+     }
